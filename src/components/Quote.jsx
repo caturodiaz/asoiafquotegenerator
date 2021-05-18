@@ -9,7 +9,7 @@ const QuoteContainer = styled.div`
     background-color: #ffffff;
     max-width: 600px;
     @media (min-width: 992px){
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 
     h1{
@@ -51,7 +51,6 @@ const Quote = ({phrase}) => {
      );
 }
  
-
 Quote.propTypes ={
     titulo: PropTypes.string.isRequired
 }
